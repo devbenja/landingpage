@@ -1,0 +1,33 @@
+.Navbar{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.div-imagen img{
+    height: 40px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 2rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Tilt Neon', cursive;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #fd0000;
+}

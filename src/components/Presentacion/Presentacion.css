@@ -1,0 +1,30 @@
+.Presentacion{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 90vh;
+}
+
+.Presentacion .Nombre{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.Nombre h2, p, a{
+    color: #ffffff;
+}
+
+.Nombre p{
+    margin-bottom: 20px;
+}
+
+.Nombre a{
+    background-color: #ff0000;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+}
+.Nombre h2{
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 900; 
+}
